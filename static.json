@@ -8,25 +8,82 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "Search | Globus Search Portal"
+        "title": "CLASS | Globus Search Portal"
       },
       "content": {
-        "headline": "Globus Search Portal"
+        "headline": "CLASS Search Portal"
       },
       "features": {
-        "transfer": false
+        "transfer": false,
+        "jsonata": true
       },
       "components": {
-        "Result": {
-          "heading": "entries[0].content.name",
+        "ResultListing": {
           "fields": [
             {
-              "label": "Tags",
-              "property": "entries[0].content.tags"
+              "label": "Sample Preview",
+              "property": "entries[0].content.files[0].preview_url",
+              "type": "globus.embed",
+              "options": {
+                "collection": "fe2feb64-4ac0-4a40-ba90-94b99d06dd2c",
+                "width": "200px",
+                "height": "150px"
+              }
             },
             {
-              "label": "Region",
-              "property": "entries[0].content.region"
+              "label": "Species",
+              "property": "entries[0].content.spec_species"
+            },
+            {
+              "label": "Organ",
+              "property": "entries[0].content.spec_organ"
+            },
+            {
+              "label": "Reagent",
+              "property": "entries[0].content.antifade_reagent"
+            },
+            {
+              "label": "Sample Time",
+              "property": "entries[0].content.sample_time"
+            }
+          ]
+        },
+        "Result": {
+          "heading": "entries[0].content.spec_species & ' ' & entries[0].content.spec_organ",
+          "fields": [
+            {
+              "label": "Sample",
+              "property": "entries[0].content.files[0].url",
+              "type": "globus.embed",
+              "options": {
+                "collection": "fe2feb64-4ac0-4a40-ba90-94b99d06dd2c",
+                "width": "632px",
+                "height": "474px"
+              }
+            },
+            {
+              "label": "Species",
+              "property": "entries[0].content.spec_species"
+            },
+            {
+              "label": "Organ",
+              "property": "entries[0].content.spec_organ"
+            },
+            {
+              "label": "Reagent",
+              "property": "entries[0].content.antifade_reagent"
+            },
+            {
+              "label": "Sample Time",
+              "property": "entries[0].content.sample_time"
+            },
+            {
+              "label": "Instrument",
+              "property": "entries[0].content.instrument"
+            },
+            {
+              "label": "Instrument Type",
+              "property": "entries[0].content.instr_type"
             }
           ]
         }
