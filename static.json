@@ -32,6 +32,9 @@
         }
       },
       "globus": {
+         "application": {
+          "client_id": "448302ba-aaa4-4023-b93e-b48892657ef9"
+        },
         "search": {
           "index": "510c9948-d915-4846-9929-47e31e84adc2",
           "facets": [
