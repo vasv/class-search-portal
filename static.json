@@ -25,7 +25,7 @@
               "property": "entries[0].content.files[0].preview_url",
               "type": "globus.embed",
               "options": {
-                "collection": "fe2feb64-4ac0-4a40-ba90-94b99d06dd2c",
+                "collection": "43323ab6-0d6b-44f5-a50e-6d57cb6af2b6",
                 "width": "200px",
                 "height": "150px"
               }
@@ -56,7 +56,7 @@
               "property": "entries[0].content.files[0].url",
               "type": "globus.embed",
               "options": {
-                "collection": "fe2feb64-4ac0-4a40-ba90-94b99d06dd2c",
+                "collection": "43323ab6-0d6b-44f5-a50e-6d57cb6af2b6",
                 "width": "632px",
                 "height": "474px"
               }
@@ -92,7 +92,7 @@
          "application": {
           "client_id": "448302ba-aaa4-4023-b93e-b48892657ef9",
            "scopes": [
-            "https://auth.globus.org/scopes/fe2feb64-4ac0-4a40-ba90-94b99d06dd2c/https"
+            "https://auth.globus.org/scopes/43323ab6-0d6b-44f5-a50e-6d57cb6af2b6/https"
           ]
         },
         "search": {
