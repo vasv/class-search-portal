@@ -33,17 +33,17 @@
       },
       "globus": {
         "search": {
-          "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
+          "index": "510c9948-d915-4846-9929-47e31e84adc2",
           "facets": [
             {
-              "name": "Tags",
-              "field_name": "tags",
+              "name": "Species",
+              "field_name": "spec_species",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "Region",
-              "field_name": "region",
+              "name": "Organ",
+              "field_name": "spec_organ",
               "type": "terms",
               "size": 10
             }
