@@ -90,9 +90,9 @@
       },
       "globus": {
          "application": {
-          "client_id": "448302ba-aaa4-4023-b93e-b48892657ef9",
+          "client_id": "1d6b9bd6-bd5e-4e13-ad0e-d7004cf8b417",
            "scopes": [
-            "https://auth.globus.org/scopes/43323ab6-0d6b-44f5-a50e-6d57cb6af2b6/https"
+            "https://auth.globus.org/scopes/1d6b9bd6-bd5e-4e13-ad0e-d7004cf8b417/https"
           ]
         },
         "search": {
