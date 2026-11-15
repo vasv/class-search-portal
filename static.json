@@ -8,10 +8,10 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "CLASS | Globus Search Portal"
+        "title": "SC26 | Globus Search Portal"
       },
       "content": {
-        "headline": "CLASS Search Portal"
+        "headline": "SC26 Search Portal"
       },
       "features": {
         "transfer": false,
@@ -21,7 +21,7 @@
         "ResultListing": {
           "fields": [
             {
-              "label": "Sample Preview",
+              "label": "Image Preview",
               "property": "entries[0].content.files[0].preview_url",
               "type": "globus.embed",
               "options": {
@@ -29,18 +29,6 @@
                 "width": "200px",
                 "height": "150px"
               }
-            },
-            {
-              "label": "Species",
-              "property": "entries[0].content.spec_species"
-            },
-            {
-              "label": "Organ",
-              "property": "entries[0].content.spec_organ"
-            },
-            {
-              "label": "Reagent",
-              "property": "entries[0].content.antifade_reagent"
             },
             {
               "label": "Sample Time",
@@ -52,7 +40,7 @@
           "heading": "entries[0].content.spec_species & ' ' & entries[0].content.spec_organ",
           "fields": [
             {
-              "label": "Sample",
+              "label": "Image",
               "property": "entries[0].content.files[0].url",
               "type": "globus.embed",
               "options": {
@@ -84,6 +72,10 @@
             {
               "label": "Instrument Type",
               "property": "entries[0].content.instr_type"
+            },
+                        {
+              "label": "ID",
+              "property": "entries[0].content.sample_id"
             }
           ]
         }
@@ -108,7 +100,13 @@
               "name": "Organ",
               "field_name": "spec_organ",
               "type": "terms",
-              "size": 10
+              "size": 12
+            },
+            {
+              "name": "Instrument Type",
+              "field_name": "instr_type",
+              "type": "terms",
+              "size": 20
             }
           ]
         }
